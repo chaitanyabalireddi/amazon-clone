@@ -1,0 +1,275 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(19, 25, 33);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.logo img{
+    width: 125px;
+    height: 70px;
+}
+.adress{
+    margin-left: 10px;
+}
+.up p{
+    position: relative;
+    top: 23px;
+    left: 15px;
+    color:rgb(204, 204, 204);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.icon1{
+    position: relative;
+    top: 10px;
+}
+.down p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    bottom: 19px;
+    left: 17px;
+}
+.searchbar{
+    margin-left: 40px;
+    display: flex;
+    gap: 0;
+}
+.selectitems select{
+    width: 50px;
+    height: 40.2px;
+    color:rgb(15, 17, 17);
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 10px;
+    background-color: rgb(230, 230, 230);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right:1px solid grey;
+}
+.input1 input{
+    width: 800px;
+    height: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    padding-left: 20px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(254, 189, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.flag{
+    display: flex;
+    gap: 5px;
+    position: relative;
+    top: 5px;
+}
+.flag img{
+    height: 15px;
+    width: 20px;
+}
+.flag label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+.up2 p{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+.down2 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.up3 p{
+    position: relative;
+    top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+.down3 p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.icon3{
+    padding-right: 20px;
+    font-size: 25px;
+    display: flex;
+}
+.icon3 i{
+    position: relative;
+    top: 10px;
+}
+.icon3 p{
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    font-size: 14px;
+    gap: 15px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#allid{
+    position: relative;
+    right: 10px;
+}
+.herosec{
+    background-image: url(images/hero-image.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.heromsg{
+    position: relative;
+    left: 25px;
+    top:  43%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width: 1465px;
+    height: 35px;
+}
+.boxes{
+    position: relative;
+    top: 46%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: papayawhip;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+.marginleft{
+    margin-left: 30px;
+}
+.box{
+    width: 330px;
+    height: 400px;
+    background-color: white;
+    padding-left: 20px;
+}
+.img img{
+    height: 250px;
+    width: 300px;
+}
+.foot1{
+    width: 100%;
+}
+.foot1 button{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51, 71, 90);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.foot2{
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: rgb(35, 47, 62);
+    font-size: 14px;
+}
+.foot2 li::marker{
+    content: "";
+}
+.foot2 li{
+color:rgb(221, 221, 221);
+font-size: 13px;
+font-weight: 400;
+}
+.foot3{
+    background-color: rgb(35, 47, 62);
+    width: 100%;
+    height: 75px;
+    position: relative;
+    bottom: 50px;
+    display: flex;
+    justify-content: center;
+    border-top: 0.5px solid white;
+}
+.foot3 img{
+    width: 125px;
+    height: 70px;
+}
+.foot4{
+    position: relative;
+    bottom: 70px;
+    background-color: rgb(19, 26,36);
+    height: 350px;
+    width: 100%;
+    color:rgb(221, 221, 221);
+    font-weight: 400;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.pages{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+
+}
+.bigbody{
+    position: absolute;
+}
+@media screen and (max-width:1200px){
+    .navbar{
+        width: 1700px;
+        height: 60px;
+        gap: 15px;
+    }
+
+}
